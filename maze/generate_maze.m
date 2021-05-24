@@ -11,7 +11,7 @@ function maze = generate_maze(m,n,exit,reward,wall,penalty,eps)
     %   maze     -- (mat) m x n matrix containing a maze
     
     
-    eps  = 0.8;         % how often to choose optimal path (0-1]
+    % eps  = 0.8;         % how often to choose optimal path (0-1]
     maze = zeros(m,n);
     
     my_location = 1;    % start at the first location
